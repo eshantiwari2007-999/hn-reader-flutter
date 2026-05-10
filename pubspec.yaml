@@ -1,0 +1,78 @@
+name: hn_reader
+description: A production-level Hacker News reader app built with Flutter Clean Architecture.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management & Dependency Injection
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # Navigation
+  go_router: ^13.2.1
+
+  # Model Generation
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+  # UI Utilities
+  cached_network_image: ^3.3.1
+  flutter_html: ^3.0.0-beta.2
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+
+  # URL launching (open story links in browser)
+  url_launcher: ^6.3.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # Local Storage & Preferences
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+  # App Polish Tools
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/hn_logo.png"
+
+flutter_native_splash:
+  color: "#FF6600"
+  color_dark: "#000000"
+  image: "assets/images/hn_logo.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  # fonts are system fonts; no custom font assets needed

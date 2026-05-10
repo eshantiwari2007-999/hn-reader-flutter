@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.idea/
+*.iml
+*.iws
+
+# IntelliJ
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+/flutter_export_environment.sh
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/.symlinks/
+**/Pods/
+**/Podfile.lock
+**/DerivedData/
+**/xcuserdata/
+
+# Android
+**/.gradle/
+**/gradle-wrapper.jar
+**/local.properties
+**/*.keystore
+**/*.jks
+
+# Freezed & CodeGen
+# Uncomment these if you do NOT want to commit generated code
+# *.freezed.dart
+# *.g.dart
+
+# Private keys / environment variables
+.env
+*.pem
