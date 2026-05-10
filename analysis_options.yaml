@@ -16,3 +16,12 @@ linter:
     - avoid_print
     - use_key_in_widget_constructors
     - always_use_package_imports
+    - require_trailing_commas
+    - avoid_empty_else
+    - avoid_relative_lib_imports
+    - empty_statements
+    - cancel_subscriptions
+    - close_sinks
+    - prefer_final_fields
+    - prefer_final_locals
+    - depend_on_referenced_packages
